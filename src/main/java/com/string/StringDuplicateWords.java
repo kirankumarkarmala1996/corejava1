@@ -1,6 +1,6 @@
 package com.string;
 
-public class StringDuplicate {
+public class StringDuplicateWords {
 public static void main(String[] args) {
 	
 
