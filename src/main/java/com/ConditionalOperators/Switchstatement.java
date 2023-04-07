@@ -18,6 +18,23 @@ public class Switchstatement {
 		
 		int abc=22;
 		
+
+		if(abc ==10) {
+			System.out.println(10);
+//			break;//break cannot be used outside of the loop or switch
+		}else if (abc==20) {
+			System.out.println(20);
+		}else if (abc==25) {
+			System.out.println(25);
+		}else if(abc==22) {
+			System.out.println(22);
+		}
+		else {
+			System.out.println("enter the correct number");
+		}
+		
+		
+		// switch case
 		switch (abc) {
 		case 10:
 			System.out.println(10);
@@ -34,19 +51,6 @@ public class Switchstatement {
 		}
 		
 		
-		if(abc ==10) {
-			System.out.println(10);
-//			break;//break cannot be used outside of the loop or switch
-		}else if (abc==20) {
-			System.out.println(20);
-		}else if (abc==25) {
-			System.out.println(25);
-		}else if(abc==22) {
-			System.out.println(22);
-		}
-		else {
-			System.out.println("enter the correct number");
-		}
 		
 //		if we write like this it will take time process because of if condition
 //		if statement is find again unnecessarily it will check all the (ifcondition)
