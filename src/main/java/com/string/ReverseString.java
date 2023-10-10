@@ -1,4 +1,4 @@
-package com.arrayconcepts;
+ package com.string;
 
 public class ReverseString {
 	public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class ReverseString {
 //		System.out.println(st.concat(st1));
 //		System.out.println(st+n);
 
-//		using inbuilt function
+//	using inbuilt function
 //		StringBuilder s = new StringBuilder(st);
 //		StringBuilder ss = s.reverse();
 //		System.out.println(ss);
@@ -23,7 +23,7 @@ public class ReverseString {
 //			System.out.println(rev);
 //		}
 		
-//		using foreach loop
+// using foreach loop
 
 //		for(String str:st) {
 //			rev=str+rev;

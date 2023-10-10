@@ -1,6 +1,6 @@
 package com.Static;
 
-public class FinalkeyWord {
+final class FinalkeyWord {
 	 int speedlimit =70;
 	
 	void bike() {
